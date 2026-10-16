@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "USD_TRY",
+  "granularity": "M1",
+  "chunk_start": "2009-11-01",
+  "chunk_end": "2009-11-30",
+  "parquet_file": "OANDA_USDTRY_USDTRY_1_2009-11-01_to_2009-11-30.parquet",
+  "data_file": "OANDA_USDTRY_USDTRY_1_2009-11-01_to_2009-11-30.parquet",
+  "row_count": 15178,
+  "first_candle": {
+    "time": 1257110760,
+    "Time": "2009-11-01T21:26:00.000000000Z",
+    "open": 1.50475,
+    "high": 1.50475,
+    "low": 1.50475,
+    "close": 1.50475,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1259622000,
+    "Time": "2009-11-30T23:00:00.000000000Z",
+    "open": 1.52852,
+    "high": 1.52852,
+    "low": 1.52852,
+    "close": 1.52852,
+    "volume": 2
+  },
+  "csv_file": "OANDA_USDTRY_USDTRY_1_2009-11-01_to_2009-11-30.parquet",
+  "csv_row_count": 15178,
+  "csv_first_candle": {
+    "time": 1257110760,
+    "Time": "2009-11-01T21:26:00.000000000Z",
+    "open": 1.50475,
+    "high": 1.50475,
+    "low": 1.50475,
+    "close": 1.50475,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1259622000,
+    "Time": "2009-11-30T23:00:00.000000000Z",
+    "open": 1.52852,
+    "high": 1.52852,
+    "low": 1.52852,
+    "close": 1.52852,
+    "volume": 2
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T03:13:31.000000000Z",
+  "generated_at": "2026-10-16T03:13:31.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2069,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2009-10-28T22:47:00Z",
+        "to": "2009-11-01T10:07:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2009-11-01T10:07:00Z",
+        "to": "2009-11-04T21:27:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2009-11-04T21:27:00Z",
+        "to": "2009-11-08T08:47:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2009-11-08T08:47:00Z",
+        "to": "2009-11-11T20:07:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2009-11-11T20:07:00Z",
+        "to": "2009-11-15T07:27:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2009-11-15T07:27:00Z",
+        "to": "2009-11-18T18:47:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2009-11-18T18:47:00Z",
+        "to": "2009-11-22T06:07:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2009-11-22T06:07:00Z",
+        "to": "2009-11-25T17:27:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2009-11-25T17:27:00Z",
+        "to": "2009-11-29T04:47:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2009-11-29T04:47:00Z",
+        "to": "2009-12-02T16:07:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
