@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "USD_TRY",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_USDTRY_USDTRY_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_USDTRY_USDTRY_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2892,
+  "first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 1.4968,
+    "high": 1.49723,
+    "low": 1.4968,
+    "close": 1.49723,
+    "volume": 5
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 5.94782,
+    "high": 5.95175,
+    "low": 5.9463,
+    "close": 5.9489,
+    "volume": 416886
+  },
+  "csv_file": "OANDA_USDTRY_USDTRY_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2892,
+  "csv_first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 1.4968,
+    "high": 1.49723,
+    "low": 1.4968,
+    "close": 1.49723,
+    "volume": 5
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 5.94782,
+    "high": 5.95175,
+    "low": 5.9463,
+    "close": 5.9489,
+    "volume": 416886
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T03:15:08.000000000Z",
+  "generated_at": "2026-10-16T03:15:08.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2007-02-15T22:00:00Z",
+        "to": "2020-10-24T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
